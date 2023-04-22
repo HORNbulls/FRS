@@ -1,0 +1,63 @@
+.add-flight-background {
+    background-image: url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80");
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .add-flight-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+  }
+  
+  .add-flight-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  input:focus {
+    border-color: #0099ff;
+  }
+  
+  .btn1 {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  
+  .btn1:hover {
+    background-color: red;
+  }
+  

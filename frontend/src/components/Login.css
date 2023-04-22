@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .gradient-navbar {
+    background: linear-gradient(90deg, #000 0%, #434343 100%);
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    margin: 0 auto;
+  }
+  
+  .crazy-bg {
+    background-color: #111;
+    background-image: radial-gradient(circle, #444, #111);
+    min-height: calc(100vh - 56px - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-container {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .neon-input {
+    background-color: #222;
+    border: none;
+    border-bottom: 2px solid #555;
+    color: #0ff;
+    font-weight: bold;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .neon-input::placeholder {
+    color: #999;
+  }
+  
+  .gradient-btn {
+    background: linear-gradient(90deg, #ff6a00 0%, #ee0979 100%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .gradient-btn:hover {
+    opacity: 0.9;
+  }
+  
+  .footer {
+    background-color: #222;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+  }
+  
